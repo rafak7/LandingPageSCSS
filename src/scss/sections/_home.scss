@@ -11,7 +11,7 @@
             gap: 2rem;
             align-items: flex-start;
             .sub-title{
-                color: var(--pink);
+                color: var(--silver);
                 text-transform: uppercase;
                 letter-spacing: 0.1rem;
             }
@@ -33,7 +33,7 @@
                 rgba(255, 255, 255, 0),
                 rgba(255, 255, 255, 0)
           ),
-              linear-gradient(101deg, var(--pink), var(--orange));
+              linear-gradient(101deg, var(--silver), var(--greyb));
             background-origin: border-box;
             background-clip: content-box, border-box;
             box-shadow: 2px 1000px 1px var(--background) inset;
@@ -56,15 +56,15 @@
                     width: 15rem;
                     filter: blur(100px);
                 }
-                .pink {
-                    background-color: var(--pink);
+                .silver {
+                    background-color: var(--silver);
                     top: 40%;
                     right: 30%;
                 }
-                .orage {
+                .greyb {
                     bottom: 40%;
                     right: 40%;
-                    background-color: var(--orange);
+                    background-color: var(--greyb);
                 }
             }
         }

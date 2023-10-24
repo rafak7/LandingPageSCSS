@@ -9,7 +9,7 @@
         border-radius: 1rem;
         overflow: hidden;
         z-index: 1;
-        background-color: var(--orange);
+        background-color: var(--accent-color2);
         .background {
             z-index: -1;
             .ellipse {
@@ -20,14 +20,14 @@
                 filter: blur(100px);
             }
             .pink {
-                background-color: var(--pink);
+                background-color: var(--greyb);
                 top: -10%;
                 left: -15%;
             }
             .green {
                 top: 10%;
                 right: -15%;
-                background-color: var(--green);
+                background-color: var(--silver);
             }
         }
         .content {

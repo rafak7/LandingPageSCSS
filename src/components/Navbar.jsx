@@ -20,16 +20,16 @@ export default function Navbar() {
     <div className="links-container">
       <ul className="links">
         <li>
-          <a href="#">Features</a>
+          <a href="#">Novidades</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#">Marcas</a>
         </li>
         <li>
-          <a href="#">Lauch</a>
+          <a href="#">Sobre</a>
         </li>
         <li>
-          <a href="#">Sing Up</a>
+          <a href="#">Entrar</a>
         </li>
       </ul>
     </div>
