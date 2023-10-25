@@ -19,12 +19,12 @@
                 border-radius: 100%;
                 filter: blur(100px);
             }
-            .pink {
+            .greyb {
                 background-color: var(--greyb);
                 top: -10%;
                 left: -15%;
             }
-            .green {
+            .silver {
                 top: 10%;
                 right: -15%;
                 background-color: var(--silver);
@@ -46,33 +46,60 @@
     .cards {
         display: flex;
         position: absolute;
-        top: -2rem;
-        right: 40%;
+        top: 3rem;
+        right: 55%;
         .card1 {
             top: 0;
             position: absolute;
-            z-index: 3;
-            transform: rotate(-10deg);
+            z-index: 2;
             font-size: 0.6rem;
             .card-image {
                 img {
                     height: 10rem;
-                    width: 12rem;
+                    width: 10rem;
                 }
             }
         }
         .card2 {
             top: 0;
-            z-index: 2;
+            z-index: 3;
             position: absolute;
-            left: 10rem;
-            transform: rotate(5deg);
+            left: 11rem;
             font-size: 0.7rem;
         .card-image {
             img {
                 height: 10rem;
+                width: 10rem;
             }
         }
+    }
+        .card3 {
+            top: 0;
+            z-index: 4;
+            position: absolute;
+            left: 22rem;
+            font-size: 0.7rem;
+        .card-image {
+            img {
+                height: 10rem;
+                width: 10rem;
+            }
         }
+    }
+
+        .card4 {
+            top: 0;
+            z-index: 4;
+            position: absolute;
+            left: 33rem;
+            font-size: 0.7rem;
+        .card-image {
+            img {
+                height: 10rem;
+                width: 10rem;
+            }
+        }
+    }
+
     }
 }

@@ -2,6 +2,7 @@
     background-color: var(--card-color);
     width: max-content;
     border-radius: 1rem;
+    
     &-content {
         display: flex;
         flex-direction: column;
@@ -16,12 +17,14 @@
               font-size: 0.7rem;
             }
             .card-top {
+                
               color: var(--accent-color3);
               text-transform: uppercase;
               font-size: 0.7rem;
              }
             }
             .card-details {
+                
                 display: flex;
                 justify-content: space-between;
                 color: var(--accent-color1);
@@ -31,6 +34,7 @@
             }
            }
            .card-sub-detials {
+            
             display: flex;
             justify-content: space-between;
             span {

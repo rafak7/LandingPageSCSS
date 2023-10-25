@@ -3,14 +3,16 @@ import Card from "./Card";
 import icon from "../assets/icon.png";
 import terra from "../assets/terra.webp";
 import air from "../assets/air.png";
+import runner from "../assets/runner.webp"
+import gel from "../assets/gel.webp"
 
 export default function Free() {
   return (
   <div className='free'>
     <div className="container">
       <div className="background">
-      <div className="ellipse pink"></div>
-          <div className="ellipse green"></div>
+      <div className="ellipse greyb"></div>
+          <div className="ellipse silver"></div>
     </div>
     <div className="content">
       <div className="image">
@@ -38,8 +40,26 @@ export default function Free() {
         title="Air Max TW"
         price={267} 
         />
-        
       </div>
+
+      <div className="card3">
+        <Card 
+        image={runner}
+        series="Yeezy"
+        title="Foam Runner" 
+        price={2.99} 
+        />
+      </div>
+
+      <div className="card4">
+        <Card 
+        image={gel}
+        series="Asics"
+        title="Nimbus 9" 
+        price={2.99} 
+        />
+      </div>
+
     </div>
   </div>
   )
