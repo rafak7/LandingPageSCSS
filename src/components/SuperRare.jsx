@@ -1,6 +1,9 @@
 import React from "react";
 import Card from "./Card";
-import ye from "../assets/ye.webp";
+import tn from "../assets/tnb.png"
+import airye from "../assets/airye.webp"
+import adi from "../assets/adi.png"
+import bad from "../assets/bad.webp" 
 import super1 from "../assets/super1.png";
 import super2 from "../assets/super2.png";
 import super3 from "../assets/super3.png";
@@ -9,36 +12,28 @@ import super4 from "../assets/super4.png";
 export default function SuperRare() {
   const data = [
     {
-      image: super1,
-      series: "Gloop Series",
-      title: "Purple Man",
+      image: tn,
+      series: "Air max plus",
+      title: "SE blue",
       price: 2.99,
-      tag: 12983,
-      time: 1,
     },
     {
-      image: super2,
-      series: "Gloop Series",
-      title: "Beige",
+      image: airye,
+      series: "Air Yeezy",
+      title: "White",
       price: 2.99,
-      tag: 12983,
-      time: 1,
     },
     {
-      image: super3,
-      series: "Gloop Series",
-      title: "Red Man",
+      image: adi,
+      series: "Adidas",
+      title: "Cloud",
       price: 2.99,
-      tag: 12983,
-      time: 1,
     },
     {
-      image: super4,
-      series: "Gloop Series",
-      title: "Green",
+      image: bad,
+      series: "Bad Bunny",
+      title: "Blue",
       price: 2.99,
-      tag: 12983,
-      time: 1,
     },
   ];
   return (
