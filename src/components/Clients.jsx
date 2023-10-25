@@ -1,12 +1,13 @@
 import React from 'react'
-import clients1 from "../assets/clients1.png";
-import clients2 from "../assets/clients2.png";
-import clients3 from "../assets/clients3.png";
-import clients4 from "../assets/clients4.png";
-import clients5 from "../assets/clients5.png";
+
+import yzy from "../assets/yzy.png";
+import nike from "../assets/nike.png";
+import asics from "../assets/asics.png";
+import adidas from "../assets/adidas.png";
+import jump from "../assets/jump.png";
 
 export default function Clients() {
-  const data = [clients1, clients2, clients3, clients4, clients5]
+  const data = [yzy, nike, asics, adidas, jump]
 
   return <div className='clients'>
     <div className="container">
