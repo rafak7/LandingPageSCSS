@@ -16,9 +16,9 @@ export default function Free() {
       <div className="image">
         <img src={icon} alt="icon" />
       </div>
-      <h2 className='title'>Free NFT for early birds</h2>
+      <h2 className='title'>Drops novos toda semana!!</h2>
       <p className="description">
-        Sing up today and you get a free NFT 
+        Cadastre-se para não perder essas novidades. 
       </p>
     </div>
     </div>
