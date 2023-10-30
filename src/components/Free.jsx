@@ -30,7 +30,7 @@ export default function Free() {
         image={terra}
         series="NOCTA"
         title="Air Terra"
-        price={2.99} 
+        price={1700} 
         />
       </div>
       <div className="card2">
@@ -38,7 +38,7 @@ export default function Free() {
         image={air}
         series="NIKE"
         title="Air Max TW"
-        price={267} 
+        price={999} 
         />
       </div>
 
@@ -47,7 +47,7 @@ export default function Free() {
         image={runner}
         series="Yeezy"
         title="Foam Runner" 
-        price={2.99} 
+        price={1000} 
         />
       </div>
 
@@ -56,7 +56,7 @@ export default function Free() {
         image={gel}
         series="Asics"
         title="Nimbus 9" 
-        price={2.99} 
+        price={899} 
         />
       </div>
 

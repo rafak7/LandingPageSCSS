@@ -5,16 +5,12 @@ import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
   const links = [
     {
-      title: "About",
-      data: ["About", "Terms", "Legal"],
+      title: "Sobre",
+      data: ["Sobre-Nos", "Termos"],
     },
     {
-      title: "NFT",
-      data: ["OpenSea", "Maker", "Learn"],
-    },
-    {
-      title: "Contact",
-      data: ["Press", "Support"],
+      title: "Contato",
+      data: ["E-mail", "FAQ"],
     },
     {
       title: "Social",
@@ -34,7 +30,6 @@ export default function Footer() {
           <div className="brand">
             <img src={logo} alt="logo" />
           </div>
-          <p>Exclusive NFT Collection</p>
           <ul>
             {socialLink.map((link, index) => (
               <li key={index}>{link}</li>
@@ -55,10 +50,6 @@ export default function Footer() {
             );
           })}
         </div>
-      </div>
-      <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
-        <span>Launching August 2022</span>
       </div>
     </footer>
   );

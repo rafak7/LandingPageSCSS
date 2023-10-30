@@ -15,25 +15,25 @@ export default function SuperRare() {
       image: tn,
       series: "Air max plus",
       title: "SE blue",
-      price: 2.99,
+      price: 1200,
     },
     {
       image: airye,
       series: "Air Yeezy",
       title: "White",
-      price: 2.99,
+      price: 10000,
     },
     {
       image: adi,
       series: "Adidas",
       title: "Cloud",
-      price: 2.99,
+      price: 899,
     },
     {
       image: bad,
       series: "Bad Bunny",
       title: "Blue",
-      price: 2.99,
+      price: 1299,
     },
   ];
   return (
