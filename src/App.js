@@ -5,9 +5,6 @@ import Home from './components/Home'
 import Free from './components/Free'
 import Clients from './components/Clients'
 import SuperRare from './components/SuperRare'
-import Release from './components/Release'
-import Like from './components/Like'
-import Singup from './components/Singup'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
 import scrollreveal from "scrollreveal";
@@ -23,7 +20,7 @@ export default function App() {
       })
       sr.reveal(
       `
-      nav,.home,.free,.clients,.super-rare,.releases,.like,.sigup,footer
+      nav,.home,.free,.clients,.super-rare,footer
       `,
       {interval: 500})
     }
@@ -36,9 +33,6 @@ export default function App() {
     <Free />
     <Clients />
     <SuperRare />
-    <Release />
-    <Like />
-    <Singup />
     <Footer />
   </div>
 }

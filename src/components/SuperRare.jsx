@@ -4,10 +4,7 @@ import tn from "../assets/tnb.png"
 import airye from "../assets/airye.webp"
 import adi from "../assets/adi.png"
 import bad from "../assets/bad.webp" 
-import super1 from "../assets/super1.png";
-import super2 from "../assets/super2.png";
-import super3 from "../assets/super3.png";
-import super4 from "../assets/super4.png";
+
 
 export default function SuperRare() {
   const data = [
